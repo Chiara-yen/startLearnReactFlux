@@ -1,10 +1,10 @@
 module.exports = {
   entry: {
-    hello: './hello.jsx'
+    hello: './public/hello.jsx'
   },
   output: {
     // __dirname is the path of webpack.js
-    path: __dirname,
+    path: __dirname + '/public',
     filename: '[name].js'
   },
   module: {

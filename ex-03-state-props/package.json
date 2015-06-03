@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "python -m SimpleHTTPServer 4000",
+    "start": "node --harmony-generators server.js",
     "watch": "npm run build -- --watch",
     "build": "webpack --config=.//webpack.js --progress"
   },
